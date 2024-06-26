@@ -6,13 +6,14 @@ export const ContentTwo = () => {
   return (
     <Box
       sx={{
-        height: "65vh",
+        height: "100%",
         width: "100%",
         bgcolor: "#FFFFFF",
         mt: "3rem",
+        p: "4rem 0rem",
       }}
     >
-      <Box sx={{ display: "flex", flexDirection: "column", gap: "8rem" }}>
+      <Box sx={{ display: "flex", flexDirection: "column", gap: "4rem" }}>
         <Typography
           variant="h1"
           sx={{ fontSize: "2.3rem", textAlign: "center" }}
@@ -23,7 +24,9 @@ export const ContentTwo = () => {
           sx={{
             display: "flex",
             justifyContent: "space-around",
+            flexDirection: { xs: "column", lg: "row" },
             alignItems: "center",
+            gap: { xs: "2.5rem" },
           }}
         >
           <Box

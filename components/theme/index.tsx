@@ -24,7 +24,7 @@ export const theme = createTheme({
     h3: {
       color: "#FFFFFF",
       fontSize: "1.8rem",
-      fontFamily: "Soligant,serif",
+      fontFamily: "STSong, serif",
     },
     h6: {
       color: "#000000",

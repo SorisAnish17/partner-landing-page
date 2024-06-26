@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+
+
 * {
   margin: 0;
   padding: 0;
@@ -29,6 +32,22 @@ body {
   color: #FFFFFF; 
   border: 1px solid white; 
 }
+
+
+[class^="eb-garamond-"] {
+  font-family: "EB Garamond", serif !important;
+  font-optical-sizing: auto !important;
+  font-style: normal !important;
+}
+
+.eb-garamond-regular {
+  font-weight: 400 !important;
+}
+
+.eb-garamond-bold {
+  font-weight: 700 !important; 
+}
+
 
 
 @media screen and (max-width: 600px) {

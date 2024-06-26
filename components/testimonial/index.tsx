@@ -41,7 +41,12 @@ export const Testimonial = () => {
             backgroundImage: `url(${carousel[currentIndex].img})`,
             backgroundSize: "cover",
             backgroundPosition: "left center",
-            width: "700px",
+            p: "1rem",
+            width: {
+              xs: "345px",
+              lg: "700px",
+              xl: "700px",
+            },
             height: "500px",
             position: "relative",
           }}
@@ -49,7 +54,7 @@ export const Testimonial = () => {
           <Box
             sx={{
               bgcolor: "#111E64",
-              width: "325px",
+              width: { xs: "200px", md: "240px" },
               height: "100%",
               display: "flex",
               flexDirection: "column",
@@ -92,9 +97,10 @@ export const Testimonial = () => {
         </Box>
         <Box
           sx={{
-            width: "700px",
-            height: "500px",
+            width: { xs: "100%", lg: "700px" },
+            height: "100%",
             display: "flex",
+            p: "1rem",
             flexDirection: "column",
             justifyContent: "center",
             alignItems: "center",
@@ -156,5 +162,3 @@ export const Testimonial = () => {
     </Box>
   );
 };
-
-export default Testimonial;

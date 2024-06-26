@@ -7,7 +7,7 @@ export const Form = () => {
     <Box
       sx={{
         height: "100%",
-        width: "34.813rem",
+        width: { xs: "345px", md: "34.813rem" },
         bgcolor: "white",
         boxShadow: "0px 4px 8px rgba(0, 0, 0, 0.2)",
       }}

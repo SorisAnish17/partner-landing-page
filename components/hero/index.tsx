@@ -9,7 +9,7 @@ export const Hero = () => {
       <Box
         sx={{
           width: "100%",
-          height: "80vh",
+          minHeight: "80vh",
           backgroundImage: `url(/assets/images/d0e74b5c51a0c2011e0dfd8d3842f380.png)`,
           backgroundSize: "cover",
           backgroundPosition: "center",
@@ -21,8 +21,20 @@ export const Hero = () => {
       >
         <Header />
       </Box>
-      <Box sx={{ position: "absolute", top: "15rem", right: "3rem" }}>
-        <Form />
+      <Box
+        sx={{
+          position: "absolute",
+          top: "15rem",
+          right: { xs: "50%", md: "3rem" },
+          left: { xs: "50%", md: "auto" },
+          display: { xs: "flex", md: "block" },
+          justifyContent: { xs: "center", md: "normal" },
+          alignItems: { xs: "center", md: "normal" },
+        }}
+      >
+        <Box>
+          <Form />
+        </Box>
       </Box>
     </Box>
   );

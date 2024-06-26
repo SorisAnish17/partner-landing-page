@@ -13,7 +13,17 @@ export const ContentOne = () => {
           gap: "1rem",
         }}
       >
-        <Typography variant="h1">
+        <Typography
+          variant="h1"
+          sx={{
+            fontSize: {
+              xs: "2.5rem",
+              lg: "h1.fontSize",
+              xl: "h1.fontSize",
+            },
+            textAlign: "center",
+          }}
+        >
           Why should you partner with Galley Cloud
         </Typography>
         <Typography
@@ -33,6 +43,13 @@ export const ContentOne = () => {
         sx={{
           display: "flex",
           justifyContent: "space-around",
+          flexDirection: {
+            xs: "column",
+            md: "row",
+          },
+          gap: {
+            xs: "2rem",
+          },
           alignItems: "center",
           mt: "2.5rem",
         }}
