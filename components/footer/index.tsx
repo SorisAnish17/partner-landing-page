@@ -131,8 +131,8 @@ export const Footer = () => {
           </Box>
         </Box>
         {/*section 2*/}
-        <Divider sx={{ bgcolor: "black", m: "2rem 0rem" }} />
-        <Box
+        {/* <Divider sx={{ bgcolor: "black", m: "2rem 0rem" }} /> */}
+        {/* <Box
           sx={{
             display: "flex",
             justifyContent: "space-between",
@@ -321,15 +321,15 @@ export const Footer = () => {
               </Typography>
             </Box>
           </Box>
-        </Box>
+        </Box> */}
         {/*section3*/}
-        <Divider sx={{ bgcolor: "black", m: "2rem 0rem" }} />
+        {/* <Divider sx={{ bgcolor: "black", m: "2rem 0rem" }} /> */}
         <Box
           sx={{
             display: "flex",
             justifyContent: "space-between",
             flexDirection: { xs: "column", md: "row" },
-            textAlign: { xs: "center", md: "auto" },
+            textAlign: { xs: "auto", md: "auto" },
           }}
         >
           <Box mt={2}>
@@ -401,7 +401,7 @@ export const Footer = () => {
                   display: "flex",
                   alignItems: "center",
                   gap: "0.5rem",
-                  justifyContent: { xs: "center", md: "auto" },
+                  justifyContent: { xs: "auto", md: "auto" },
                 }}
               >
                 <Image
@@ -419,7 +419,7 @@ export const Footer = () => {
                   display: "flex",
                   alignItems: "center",
                   gap: "0.5rem",
-                  justifyContent: { xs: "center", md: "auto" },
+                  justifyContent: { xs: "auto", md: "auto" },
                 }}
               >
                 <Image
