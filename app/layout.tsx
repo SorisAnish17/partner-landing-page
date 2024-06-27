@@ -1,11 +1,16 @@
-"use client";
 import type { Metadata } from "next";
+import { MainLayout } from "../layout/main";
 import { Inter } from "next/font/google";
-import { ThemeProvider } from "@mui/material/styles";
-import { theme } from "../components/theme/index";
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
+
+export const metadata = {
+  title: "Galleycloud Partner Page",
+  description: "Explore partnership benefits with Galleycloud.",
+  keywords: "Galleycloud, partnership, benefits, partners, aviation",
+  author: "Your Name",
+};
 
 export default function RootLayout({
   children,
@@ -14,9 +19,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <ThemeProvider theme={theme}>
-        <body suppressHydrationWarning={true}>{children}</body>
-      </ThemeProvider>
+      <body suppressHydrationWarning={true}>
+        <MainLayout>{children}</MainLayout>
+      </body>
     </html>
   );
 }
