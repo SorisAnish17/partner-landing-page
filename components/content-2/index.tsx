@@ -16,7 +16,14 @@ export const ContentTwo = () => {
       <Box sx={{ display: "flex", flexDirection: "column", gap: "4rem" }}>
         <Typography
           variant="h1"
-          sx={{ fontSize: "2.3rem", textAlign: "center" }}
+          className="soligant"
+          sx={{
+            fontSize: {
+              xs: "2.5rem",
+              lg: "3.75rem",
+            },
+            textAlign: "center",
+          }}
         >
           How We Can Work Together
         </Typography>

@@ -26,12 +26,18 @@ export const FAQ = () => {
         }}
       >
         <Box sx={{ p: { xs: "1rem", md: "0rem" } }}>
-          <p
-            className="eb-garamond-regular"
-            style={{ fontSize: "2.5rem", textAlign: "center" }}
+          <Typography
+            className="soligant"
+            sx={{
+              fontSize: {
+                xs: "2.5rem",
+                lg: "3.75rem",
+              },
+              textAlign: "center",
+            }}
           >
             Why Should I Partner FAQ
-          </p>
+          </Typography>
         </Box>
         <Box
           sx={{

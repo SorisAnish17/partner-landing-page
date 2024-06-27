@@ -4,7 +4,7 @@ import { Box, Typography, Button, IconButton } from "@mui/material";
 import MenuIcon from "@mui/icons-material/Menu";
 import Sidebar from "./drawer";
 
-export const Header: React.FC = () => {
+export const Dummyheader = () => {
   const [isDrawerOpen, setIsDrawerOpen] = useState(false);
 
   const toggleDrawer =
@@ -19,7 +19,6 @@ export const Header: React.FC = () => {
       }
       setIsDrawerOpen(open);
     };
-
   return (
     <Box>
       <Box
@@ -32,15 +31,15 @@ export const Header: React.FC = () => {
           position: "fixed",
           top: 0,
           zIndex: 1000,
-          backgroundColor: "#111E64",
+          backgroundColor: "#FFFFFF",
           paddingLeft: { xs: "1rem", md: "2rem" },
           paddingRight: { xs: "1rem", md: "2rem" },
-          boxShadow: "0 2px 4px rgba(0, 0, 0, 0.1)",
+          boxShadow: "0 2px 4px rgba(0, 0, 1, 0.1)",
         }}
       >
         <Box
           sx={{
-            backgroundImage: `url('/assets/images/logo.png')`,
+            backgroundImage: `url('/assets/images/galleycloudlogo.png')`,
             backgroundSize: "contain",
             backgroundRepeat: "no-repeat",
             backgroundPosition: "center",
@@ -55,9 +54,8 @@ export const Header: React.FC = () => {
           onClick={toggleDrawer(true)}
           sx={{ mr: 2, display: { sm: "none" } }}
         >
-          <MenuIcon sx={{ color: "white" }} />
+          <MenuIcon sx={{ color: "black" }} />
         </IconButton>
-
         <Box
           sx={{
             display: { xs: "none", sm: "flex" },
@@ -67,41 +65,44 @@ export const Header: React.FC = () => {
         >
           <Typography
             variant="h4"
-            sx={{ color: "white", fontSize: { sm: "1rem", xl: "1.125rem" } }}
+            sx={{ fontSize: { sm: "1rem", xl: "1.125rem" }, color: "black" }}
           >
             Home
           </Typography>
           <Typography
             variant="h4"
-            sx={{ color: "white", fontSize: { sm: "1rem", xl: "1.125rem" } }}
+            sx={{ color: "black", fontSize: { sm: "1rem", xl: "1.125rem" } }}
           >
             About Us
           </Typography>
           <Typography
             variant="h4"
-            sx={{ color: "white", fontSize: { sm: "1rem", xl: "1.125rem" } }}
+            sx={{ color: "black", fontSize: { sm: "1rem", xl: "1.125rem" } }}
           >
             Terms and Conditions
           </Typography>
           <Typography
             variant="h4"
-            sx={{ color: "white", fontSize: { sm: "1rem", xl: "1.125rem" } }}
+            sx={{ color: "black", fontSize: { sm: "1rem", xl: "1.125rem" } }}
           >
             Privacy Policy
           </Typography>
           <Typography
             variant="h4"
-            sx={{ color: "white", fontSize: { sm: "1rem", xl: "1.125rem" } }}
+            sx={{ color: "black", fontSize: { sm: "1rem", xl: "1.125rem" } }}
           >
             Contact
           </Typography>
+        </Box>
+        <Box sx={{ display: { xs: "none", sm: "flex" } }}>
           <Typography
-            className="register-btn"
             sx={{
               fontSize: { sm: "1rem", xl: "1.125rem" },
               fontFamily: "STSong,Serif",
               p: { sm: "0.4rem" },
-              borderRadius: "1rem",
+              bgcolor: "black",
+              color: "white",
+              borderRadius: "0.3rem",
             }}
           >
             Registration

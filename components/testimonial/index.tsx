@@ -88,6 +88,7 @@ export const Testimonial = () => {
               {carousel[currentIndex].subtitle}
             </Typography>
             <Typography
+              className="soligant"
               variant="h2"
               sx={{ color: "#FFFFFF", fontSize: "2.8rem", textAlign: "center" }}
             >

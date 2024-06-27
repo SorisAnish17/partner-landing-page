@@ -4,14 +4,20 @@ import Image from "next/image";
 
 export const PartnerBenefit = () => {
   return (
-    <Box sx={{ minHeight: "80vh", bgcolor: "#EDF1FF", p: "2rem" }}>
-      <Box>
-        <p
-          className="eb-garamond-regular"
-          style={{ fontSize: "2.5rem", textAlign: "center" }}
+    <Box sx={{ minHeight: "80vh", bgcolor: "#EDF1FF", p: "6rem 2rem" }}>
+      <Box sx={{ mb: "4rem" }}>
+        <Typography
+          className="soligant"
+          sx={{
+            textAlign: "center",
+            fontSize: {
+              xs: "2.5rem",
+              lg: "3.75rem",
+            },
+          }}
         >
           Galley Cloud Partnership Benefits Your Business
-        </p>
+        </Typography>
       </Box>
       <Box
         sx={{
@@ -26,7 +32,7 @@ export const PartnerBenefit = () => {
       >
         <Box
           sx={{
-            width: "400px",
+            width: { xs: "100%", sm: "400px" },
             display: "flex",
             flexDirection: "column",
             gap: "1rem",
@@ -42,11 +48,14 @@ export const PartnerBenefit = () => {
               height={50}
             />
           </Box>
-          <Typography variant="h2" sx={{ fontSize: "1.5rem" }}>
+          <Typography
+            variant="h2"
+            sx={{ fontSize: "1.5rem", textAlign: { xs: "center", md: "auto" } }}
+          >
             Cloud Solutions Expertise
           </Typography>
           <Typography
-            align="center"
+            align="justify"
             sx={{
               fontFamily: "STSong,Serif",
               color: "#00000099",
@@ -62,7 +71,7 @@ export const PartnerBenefit = () => {
         </Box>
         <Box
           sx={{
-            width: "400px",
+            width: { xs: "100%", sm: "400px" },
             display: "flex",
             flexDirection: "column",
             gap: "1rem",
@@ -78,11 +87,14 @@ export const PartnerBenefit = () => {
               height={50}
             />
           </Box>
-          <Typography variant="h2" sx={{ fontSize: "1.5rem" }}>
+          <Typography
+            variant="h2"
+            sx={{ fontSize: "1.5rem", textAlign: { xs: "center", md: "auto" } }}
+          >
             Cost Efficiency
           </Typography>
           <Typography
-            align="center"
+            align="justify"
             sx={{
               fontFamily: "STSong,Serif",
               color: "#00000099",
@@ -97,7 +109,7 @@ export const PartnerBenefit = () => {
         </Box>
         <Box
           sx={{
-            width: "400px",
+            width: { xs: "100%", sm: "400px" },
             display: "flex",
             flexDirection: "column",
             gap: "1rem",
@@ -111,11 +123,14 @@ export const PartnerBenefit = () => {
             width={50}
             height={50}
           />
-          <Typography variant="h2" sx={{ fontSize: "1.5rem" }}>
+          <Typography
+            variant="h2"
+            sx={{ fontSize: "1.5rem", textAlign: { xs: "center", md: "auto" } }}
+          >
             Scalability
           </Typography>
           <Typography
-            align="center"
+            align="justify"
             sx={{
               fontFamily: "STSong,Serif",
               color: "#00000099",
@@ -143,7 +158,7 @@ export const PartnerBenefit = () => {
       >
         <Box
           sx={{
-            width: "400px",
+            width: { xs: "100%", sm: "400px" },
             display: "flex",
             flexDirection: "column",
             gap: "1rem",
@@ -157,11 +172,14 @@ export const PartnerBenefit = () => {
             width={50}
             height={50}
           />
-          <Typography variant="h2" sx={{ fontSize: "1.5rem" }}>
+          <Typography
+            variant="h2"
+            sx={{ fontSize: "1.5rem", textAlign: { xs: "center", md: "auto" } }}
+          >
             Security and Compliance
           </Typography>
           <Typography
-            align="center"
+            align="justify"
             sx={{
               fontFamily: "STSong,Serif",
               color: "#00000099",
@@ -177,7 +195,7 @@ export const PartnerBenefit = () => {
         </Box>
         <Box
           sx={{
-            width: "400px",
+            width: { xs: "100%", sm: "400px" },
             display: "flex",
             flexDirection: "column",
             gap: "1rem",
@@ -191,11 +209,14 @@ export const PartnerBenefit = () => {
             width={50}
             height={50}
           />
-          <Typography variant="h2" sx={{ fontSize: "1.5rem" }}>
+          <Typography
+            variant="h2"
+            sx={{ fontSize: "1.5rem", textAlign: { xs: "center", md: "auto" } }}
+          >
             Innovation & Competitive Edge
           </Typography>
           <Typography
-            align="center"
+            align="justify"
             sx={{
               fontFamily: "STSong,Serif",
               color: "#00000099",
@@ -208,7 +229,7 @@ export const PartnerBenefit = () => {
         </Box>
         <Box
           sx={{
-            width: "400px",
+            width: { xs: "100%", sm: "400px" },
             display: "flex",
             flexDirection: "column",
             gap: "1rem",
@@ -222,11 +243,14 @@ export const PartnerBenefit = () => {
             width={50}
             height={50}
           />
-          <Typography variant="h2" sx={{ fontSize: "1.5rem" }}>
+          <Typography
+            variant="h2"
+            sx={{ fontSize: "1.5rem", textAlign: { xs: "center", md: "auto" } }}
+          >
             Focus on Core Business
           </Typography>
           <Typography
-            align="center"
+            align="justify"
             sx={{
               fontFamily: "STSong,Serif",
               color: "#00000099",

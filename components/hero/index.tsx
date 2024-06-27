@@ -1,6 +1,7 @@
 import React from "react";
 import { Box } from "@mui/material";
 import { Header } from "./header";
+import { Dummyheader } from "./dummyheader";
 import { Form } from "./form";
 
 export const Hero = () => {
@@ -9,7 +10,7 @@ export const Hero = () => {
       <Box
         sx={{
           width: "100%",
-          minHeight: "80vh",
+          minHeight: "90vh",
           backgroundImage: `url(/assets/images/d0e74b5c51a0c2011e0dfd8d3842f380.png)`,
           backgroundSize: "cover",
           backgroundPosition: "center",
@@ -19,12 +20,13 @@ export const Hero = () => {
         }}
         className="hero-bg"
       >
-        <Header />
+        {/* <Header /> */}
+        <Dummyheader />
       </Box>
       <Box
         sx={{
           position: "absolute",
-          top: "15rem",
+          top: { xs: "10rem", md: "20rem" },
           right: { xs: "50%", md: "3rem" },
           left: { xs: "50%", md: "auto" },
           display: { xs: "flex", md: "block" },

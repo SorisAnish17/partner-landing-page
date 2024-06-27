@@ -1,5 +1,6 @@
 import React from "react";
 import { Box, Typography } from "@mui/material";
+import AddOutlinedIcon from "@mui/icons-material/AddOutlined";
 
 export const ContentThree = () => {
   return (
@@ -38,10 +39,10 @@ export const ContentThree = () => {
           }}
         >
           <p
-            className="eb-garamond-regular"
+            className="soligant"
             style={{ fontSize: "2.5rem", color: "white" }}
           >
-            4000 +
+            4000 <AddOutlinedIcon />
           </p>
           <Typography variant="h3" sx={{ fontSize: "1.3rem" }}>
             CITIES
@@ -60,10 +61,10 @@ export const ContentThree = () => {
           }}
         >
           <p
-            className="eb-garamond-regular"
+            className="soligant"
             style={{ fontSize: "2.5rem", color: "white" }}
           >
-            7 +
+            7 <AddOutlinedIcon />
           </p>
           <Typography variant="h3" sx={{ fontSize: "1.3rem" }}>
             CONTINENTS
@@ -82,10 +83,10 @@ export const ContentThree = () => {
           }}
         >
           <p
-            className="eb-garamond-regular"
+            className="soligant"
             style={{ fontSize: "2.5rem", color: "white" }}
           >
-            1500 +
+            1500 <AddOutlinedIcon />
           </p>
           <Typography variant="h3" sx={{ fontSize: "1.3rem" }}>
             PARTNERS

@@ -14,7 +14,7 @@ export const Form = () => {
     >
       <Box sx={{ bgcolor: "#111E64", textAlign: "center", p: "1rem" }}>
         <Typography variant="h5">Showcase your Business To</Typography>
-        <Typography variant="h3">
+        <Typography variant="h3" className="soligant" sx={{ m: "0.2rem" }}>
           The Private Jet Community With Galley Cloud
         </Typography>
       </Box>
@@ -72,7 +72,12 @@ export const Form = () => {
             p: "0.7rem",
           }}
         >
-          <Typography sx={{ fontFamily: "STSong, serif", fontSize: "1.5rem" }}>
+          <Typography
+            sx={{
+              fontFamily: "STSong, serif",
+              fontSize: { xs: "1rem", md: "1.5rem" },
+            }}
+          >
             Get Started
           </Typography>
         </Box>

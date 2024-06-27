@@ -4,27 +4,28 @@ import Image from "next/image";
 
 export const ContentOne = () => {
   return (
-    <Box sx={{ m: "8rem 0rem" }}>
+    <Box sx={{ m: "10rem 0rem" }}>
       <Box
         sx={{
           display: "flex",
           flexDirection: "column",
           alignItems: "center",
           gap: "1rem",
+          p: "1rem",
         }}
       >
         <Typography
           variant="h1"
+          className="soligant"
           sx={{
             fontSize: {
               xs: "2.5rem",
-              lg: "h1.fontSize",
-              xl: "h1.fontSize",
+              lg: "3.75rem",
             },
             textAlign: "center",
           }}
         >
-          Why should you partner with Galley Cloud
+          Why should You Partner With Galley Cloud
         </Typography>
         <Typography
           sx={{
@@ -56,7 +57,8 @@ export const ContentOne = () => {
       >
         <Box
           sx={{
-            width: "400px",
+            width: { xs: "100%", sm: "400px" },
+            p: { xs: "1rem", sm: "auto" },
             display: "flex",
             flexDirection: "column",
             gap: "1rem",
@@ -91,7 +93,8 @@ export const ContentOne = () => {
         </Box>
         <Box
           sx={{
-            width: "400px",
+            width: { xs: "100%", sm: "400px" },
+            p: { xs: "1rem", sm: "auto" },
             display: "flex",
             flexDirection: "column",
             gap: "1rem",
@@ -127,7 +130,8 @@ export const ContentOne = () => {
         </Box>
         <Box
           sx={{
-            width: "400px",
+            width: { xs: "100%", sm: "400px" },
+            p: { xs: "1rem", sm: "auto" },
             display: "flex",
             flexDirection: "column",
             gap: "1rem",
