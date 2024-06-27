@@ -57,7 +57,7 @@ export const ContentOne = () => {
       >
         <Box
           sx={{
-            width: { xs: "100%", sm: "400px" },
+            width: { xs: "100%", sm: "450px" },
             p: { xs: "1rem", sm: "auto" },
             display: "flex",
             flexDirection: "column",
@@ -82,7 +82,7 @@ export const ContentOne = () => {
           <Typography
             sx={{
               color: "#00000099",
-              textAlign: "center",
+              textAlign: "justify",
               fontFamily: "STSong, serif",
               fontSize: "1.3rem",
             }}
@@ -93,7 +93,7 @@ export const ContentOne = () => {
         </Box>
         <Box
           sx={{
-            width: { xs: "100%", sm: "400px" },
+            width: { xs: "100%", sm: "450px" },
             p: { xs: "1rem", sm: "auto" },
             display: "flex",
             flexDirection: "column",
@@ -118,7 +118,7 @@ export const ContentOne = () => {
           <Typography
             sx={{
               color: "#00000099",
-              textAlign: "center",
+              textAlign: "justify",
               fontFamily: "STSong, serif",
               fontSize: "1.3rem",
             }}
@@ -130,7 +130,7 @@ export const ContentOne = () => {
         </Box>
         <Box
           sx={{
-            width: { xs: "100%", sm: "400px" },
+            width: { xs: "100%", sm: "450px" },
             p: { xs: "1rem", sm: "auto" },
             display: "flex",
             flexDirection: "column",
@@ -155,7 +155,7 @@ export const ContentOne = () => {
           <Typography
             sx={{
               color: "#00000099",
-              textAlign: "center",
+              textAlign: "justify",
               fontFamily: "STSong, serif",
               fontSize: "1.3rem",
             }}

@@ -323,7 +323,7 @@ export const Footer = () => {
           </Box>
         </Box>
         {/*section3*/}
-        <Divider sx={{ bgcolor: "black" }} />
+        <Divider sx={{ bgcolor: "black", m: "2rem 0rem" }} />
         <Box
           sx={{
             display: "flex",
